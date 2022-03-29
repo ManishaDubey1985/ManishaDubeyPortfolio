@@ -1,12 +1,13 @@
 #header3
  {
  color: #424242;
- font-family: Verdana, Geneva, sans-serif;
- text-align: center;
- position: absolute;
- text-decoration: solid;
- margin-top: 100 px;
+ font-family:'Courier New', Courier, monospace;
+ text-align: left;
+ text-decoration:solid;
+ margin-top: 0 px;
  font-size: large;
+ position: relative;
+ padding-left: 20px;
  }
  #p1
  {
@@ -16,9 +17,7 @@
  /* modified div1 with the help od source: https://coder-coder.com/display-divs-side-by-side/ */
  #div1
  {
-    width: 50%;
-    float: left;
-    padding: 20px;  
+        text-align: left;
  }
  #div2
  {
@@ -29,6 +28,17 @@
      margin-left: 30px;
 
  }
- body{
-     background-color:beige;
- }
+ body
+ {
+    /* background-image: url("../Media/background1.jpg");
+     background-position: center;
+     background-repeat:no-repeat;
+     background-size:contain; */
+
+     background-color: rgba(173, 13, 13, 0.192);
+}
+ .float-container {
+    border: 3px solid rgba(10, 9, 9, 0.034);
+    padding: 20px;
+    overflow: auto;
+}
