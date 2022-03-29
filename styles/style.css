@@ -1,0 +1,22 @@
+#header3
+ {
+ color: #424242;
+ font-family: Verdana, Geneva, sans-serif;
+ text-align: center;
+ }
+ #p1
+ {
+    background-image: url("C:\Users\projj\ManishaDubeyPortfolio\Media\manisha.jpg");
+ }
+ #div1
+ {
+     width: 400px;
+     height: 450px;
+     position: static;   
+ }
+ #div2
+ {
+     width: 500px;
+     height: 450px;
+     position: relative;     
+ }
