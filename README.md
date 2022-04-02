@@ -4,7 +4,7 @@
 2. Portfolio: 
    _For System Integration Test and User Acceptance Test_
 3. Working: 
-  _For Development and develoer testing_
+  _For Development and developer testing_
 4. Github Home
  _ [Github](https://github.com "Github home")
 
