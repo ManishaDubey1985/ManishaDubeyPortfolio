@@ -11,6 +11,15 @@
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
       <link rel="stylesheet" href="styles\style.css">
       <!-- end of outsourcing -->
+
+      <script>
+          window.onload = function displayMessage()
+          {
+          var getName = localStorage.getItem("Cname");
+          var lblName = document.getElementById('lblMessage');
+          lblName.innerHTML = getName + ' ' + 'thank you for contacting me. I will get back to you soon.';
+          }
+      </script>
     </head>
     <body>
         <!-- designing nav bar using bootstrap classes -->
@@ -26,8 +35,8 @@
             </ul>
           </div>
         </nav>
-        <div>
-            <label id="lblMessage"></label>
-        </div>
+            <div>
+                <label id="lblMessage"></label>
+            </div>
     </body>
 </html>
