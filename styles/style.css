@@ -1,0 +1,57 @@
+#header3
+ {
+ color: #424242;
+ font-family:'Courier New', Courier, monospace;
+ text-align: left;
+ text-decoration:solid;
+ margin-top: 0 px;
+ font-size: large;
+ position: relative;
+ padding-left: 20px;
+ }
+ #p1
+ {
+    margin-top: 20px;
+    margin-bottom: 20px;  
+ }
+ #p2
+ {
+     padding-left: 10px;
+     background-position: center;
+     background-size: cover;
+ }
+ /* modified div1 with the help od source: https://coder-coder.com/display-divs-side-by-side/ */
+ #div1
+ {
+        text-align: left;
+ }
+ #div2
+ {
+     width: 200px;
+     height: 250px;
+     text-align: right;   
+     position: relative;
+     margin-left: 30px;
+
+ }
+ body
+ {
+    /* background-image: url("../Media/background1.jpg");
+     background-position: center;
+     background-repeat:no-repeat;
+     background-size:contain; */
+
+     background-color: rgba(173, 13, 13, 0.192);
+}
+ .float-container {
+    border: 3px solid rgba(10, 9, 9, 0.034);
+    padding: 20px;
+    overflow: auto;
+}
+#aboutMe
+{
+    background-image: url("C:\Users\projj\ManishaDubeyPortfolio\Media\background3.jpg");
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:contain;
+}
