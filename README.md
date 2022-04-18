@@ -16,7 +16,6 @@ This website is for showcasing my work history and the learning journey towards 
 
 ## UX
 My pages will help the employers/recruiters to know me and understand my knowledge of full stack development.
-Features
 
 ## Existing Features
 
@@ -59,7 +58,7 @@ To send an email on submitting the contact request.
 
 The hosting platform that I've used for my project is GitHub Pages. To deploy my website to GitHub pages, I used the following steps:
 
-1.	Created the repository on the GITHUB named: ManishaDubeyPortfolio
+1.	Created the repository on the GitHub named: ManishaDubeyPortfolio
 2.	Initialised Git using the `git init` command.
 3.	Cloned repository using `git clone` ManishaDubeyPortfolio
 4.	Created working and Portfolio branch using `git checkout -b` command
