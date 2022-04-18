@@ -10,32 +10,32 @@
 
 _**The project is all about me and defining my portfolio using interactive user interface over web, showcasing my coding and designing skills using HTML/Bootstrap/GitHub/CSS._**
 
-Manisha Dubey Portfolio - Project One
+# Manisha Dubey Portfolio - Project One
 
 This website is for showcasing my work history and the learning journey towards full stack development.
 
-UX
+## UX
 My pages will help the employers/recruiters to know me and understand my knowledge of full stack development.
 Features
 
-Existing Features
+## Existing Features
 
-All Pages (excluding welcome page)
+#### All Pages (excluding welcome page)
 All the pages have navigation bar to navigate through different pages. The footer link on each page displays my contact details.
 
-Home.html
+#### Home.html
 Home page displays the overview of my profile.
 
-AboutMe.html
+#### AboutMe.html
 About me page gives the brief introduction of my work history, career path and learning journey.
 
-Contact.html
+#### Contact.html
 Contact page has the contact form where user can input their details and submit request to be contacted. The required field, email check and placeholder features have been implemented using HTML5 features.
 
-Features Left to Implement (Contact. Form)
+### Features Left to Implement (Contact Form)
 To send an email on submitting the contact request.
 
-Technologies Used
+## Technologies Used
 •	HTML5
 o	The project uses HTML5 to create the basic elements and content of my website.
 •	CSS3
@@ -49,14 +49,14 @@ o	I've used Git as a version control system to regularly add and commit changes 
 •	GitHub
 o	I've used GitHub as a remote repository to push and store the committed changes to my project from Git. I've also used GitHub pages to deploy my website in a live environment.
 
-Testing
+### Testing
 •	Tested all the pages on different devices and working fine.
 •	While testing through GIT pages website, the post method not working on the contact form submission and getting the error ‘405 NOT Allowed’.
 •	Through my research, I found that it is not supported by GITHUB. 
 Reference: html - why does it show Error 405 Not Allowed using Github pages - Stack Overflow
 Deployment
 
-The hosting platform that I've used for my project is GitHub Pages. To deploy my website to GitHub pages, I used the following steps:
+## The hosting platform that I've used for my project is GitHub Pages. To deploy my website to GitHub pages, I used the following steps:
 1.	Created the repository on GITHUB named: ManishaDubeyPortfolio
 2.	Initialised Git using the git init command.
 3.	Cloned repository using git clone ManishaDubeyPortfolio
@@ -70,18 +70,18 @@ The hosting platform that I've used for my project is GitHub Pages. To deploy my
 11.	Went into 'Settings' on my repository page in GitHub.
 12.	Ran several regular commits throughout my project.
 
-Repository Link
+### Repository Link
 
 ManishaDubey1985/ManishaDubeyPortfolio (github.com)
 
-Running Code Locally
+### Running Code Locally
 To run my code locally, users can download a local copy of my code to their desktop by completing the following steps:
 1.	Go to my GitHub repository.
 2.	Click on 'Clone or download'.
 3.	Click on 'Download ZIP'.
 4.	Once cloned (if downloaded extract the zip file's contents) run my website locally.
 
-Acknowledgements
+## Acknowledgements
 •	I received inspiration for the website through WIXCreative website.
 Reference: 20 Best Portfolio Websites to See Before Creating Your Own (wix.com)
 
