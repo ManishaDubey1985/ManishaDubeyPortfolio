@@ -59,7 +59,7 @@ To send an email on submitting the contact request.
 
 The hosting platform that I've used for my project is GitHub Pages. To deploy my website to GitHub pages, I used the following steps:
 
-1.	Created the repository on [GITHUB:] (ManishaDubeyPortfolio)
+1.	Created the repository on the GITHUB named: ManishaDubeyPortfolio
 2.	Initialised Git using the `git init` command.
 3.	Cloned repository using `git clone` ManishaDubeyPortfolio
 4.	Created working and Portfolio branch using `git checkout -b` command
@@ -71,6 +71,8 @@ The hosting platform that I've used for my project is GitHub Pages. To deploy my
 10.	Created Git pages using the Portfolio branch
 11.	Went into 'Settings' on my repository page in GitHub.
 12.	Ran several regular commits throughout my project.
+13. The project is awaited for UAT clearance under the Portfolio branch.
+14. Once done, it will be pushed to the main branch for final launch of webesite.
 
 ### Repository Link
 
