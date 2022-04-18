@@ -37,23 +37,23 @@ To send an email on submitting the contact request.
 
 ## Technologies Used
 -	HTML5
- -	The project uses HTML5 to create the basic elements and content of my website.
+   -	The project uses HTML5 to create the basic elements and content of my website.
 -	CSS3
- -	The project uses CSS3 to add custom styles to the elements and content of my website.
+   -	The project uses CSS3 to add custom styles to the elements and content of my website.
 -	Bootstrap v4.3
- -	The project uses Bootstrap v4.3 to add a responsive grid system, prebuilt components, plugins built on jQuery, and Bootstrap styles to my website, before adding my custom styles.
+   -	The project uses Bootstrap v4.3 to add a responsive grid system, prebuilt components, plugins built on jQuery, and Bootstrap styles to my website, before adding my custom styles.
 -	JavaScript
- -	The project uses JavaScript from Bootstrap which is required to add functionality to some of Bootstrap's components.
+   -	The project uses JavaScript from Bootstrap which is required to add functionality to some of Bootstrap's components.
 -	Git
- -	I've used Git as a version control system to regularly add and commit changes made to project in Cloud9, before pushing them to GitHub.
+   -	I've used Git as a version control system to regularly add and commit changes made to project in Cloud9, before pushing them to GitHub.
 -	GitHub
- -	I've used GitHub as a remote repository to push and store the committed changes to my project from Git. I've also used GitHub pages to deploy my website in a live environment.
+   -	I've used GitHub as a remote repository to push and store the committed changes to my project from Git. I've also used GitHub pages to deploy my website in a live environment.
 
 ### Testing
 -	Tested all the pages on different devices and working fine.
 -	While testing through GIT pages website, the post method not working on the contact form submission and getting the error ‘405 NOT Allowed’.
 -	Through my research, I found that it is not supported by GITHUB. 
-Reference: <html - why does it show Error 405 Not Allowed using Github pages - Stack Overflow>
+   [Reference:] (https://stackoverflow.com/questions/67921950/why-does-it-show-error-405-not-allowed-using-github-pages#:~:text=405%20is%20the%20HTTP%20status,to%20a%20URL%20hosted%20there.)
 
 ## Deployment
 
@@ -74,18 +74,18 @@ The hosting platform that I've used for my project is GitHub Pages. To deploy my
 
 ### Repository Link
 
-<ManishaDubey1985/ManishaDubeyPortfolio (github.com)>
+(https://github.com/ManishaDubey1985/ManishaDubeyPortfolio/tree/Portfolio)
 
 ### Running Code Locally
 To run my code locally, users can download a local copy of my code to their desktop by completing the following steps:
-1.	Go to my <GitHub repository>.
+1.	Go to my [GitHub] (https://github.com/ManishaDubey1985/ManishaDubeyPortfolio/tree/Portfolio).
 2.	Click on 'Clone or download'.
 3.	Click on 'Download ZIP'.
 4.	Once cloned (if downloaded extract the zip file's contents) run my website locally.
 
 ## Acknowledgements
 -	I received inspiration for the website through WIXCreative website.
- - Reference: 20 Best Portfolio Websites to See Before Creating Your Own (<wix.com>) 
+  - [Reference:] (https://www.wix.com/blog/creative/2020/03/best-portfolio-websites/?utm_source=google&utm_medium=cpc&utm_campaign=9824203630^140722896212&experiment_id=^^592430043015^^_DSA&gclid=EAIaIQobChMIn4TnmrOc9wIVgpNmAh1veAd_EAAYASAAEgJVcPD_BwE)
 
 -	I used w3schools and stack overflow websites mostly to understand the bootstrap classes and other coding and designing references.
 -	A special mention to my mentor, Sunny Hebbar, for his feedback and for hints on what information to include in my README.md file to justify my stylistic choices.
