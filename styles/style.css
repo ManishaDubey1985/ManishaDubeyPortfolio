@@ -1,24 +1,41 @@
 #header3
  {
  color: #424242;
- font-family:'Courier New', Courier, monospace;
- text-align: left;
+ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ text-align:center;
  text-decoration:solid;
- margin-top: 0 px;
+ margin-top: 30 px;
  font-size: large;
  position: relative;
- padding-left: 20px;
+ padding-left: 40px;
  }
  #p1
  {
     margin-top: 20px;
-    margin-bottom: 20px;  
+    margin-bottom: 20px;     
+ }
+ #img1
+ {
+    width:500px;
+    border-radius: 10mm;
+    border-style: groove;
+    border-color: green;
+ }
+ #img2
+ {
+    width:450px;
+    height: 670px;
+    border-radius: 10mm;
+    border-style: groove;
+    border-color: green;
  }
  #p2
  {
      padding-left: 10px;
      background-position: center;
      background-size: cover;
+     width:100%;
+    height: 5%; 
  }
  /* modified div1 with the help od source: https://coder-coder.com/display-divs-side-by-side/ */
  #div1
@@ -36,17 +53,20 @@
  }
  body
  {
-    /* background-image: url("../Media/background1.jpg");
+    /* background-image: url("/Users/manishadubey/Desktop/ManishaDubeyPortfolio/Media/background1.jpg");
      background-position: center;
      background-repeat:no-repeat;
-     background-size:contain; */
+     background-size:cover;  
 
-     background-color: rgba(173, 13, 13, 0.192);
+     background-color: rgba(173, 13, 13, 0.192);*/
+     background-color:#afd76ebb;    
+    
 }
  .float-container {
     border: 3px solid rgba(10, 9, 9, 0.034);
     padding: 20px;
     overflow: auto;
+    background-color:#b4ce89bb; 
 }
 #aboutMe
 {
@@ -54,4 +74,25 @@
     background-position: center;
     background-repeat:no-repeat;
     background-size:contain;
+}
+#abtcontainer{
+    background-image: url("/Users/manishadubey/Desktop/ManishaDubeyPortfolio/Media/pinkbackground.jpeg");
+    background-size:cover; 
+    background-repeat:no-repeat;
+
+}
+.navbar
+{
+    background-color:cornflowerblue;
+}
+.navbar-header
+{
+    color: aliceblue;
+}
+#mar
+{
+    
+    text-decoration: solid;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
