@@ -1,4 +1,4 @@
-#header3
+#para1
  {
  color: #424242;
  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -7,13 +7,24 @@
  margin-top: 30 px;
  font-size: large;
  position: relative;
+ padding-left: 50px;
+ }
+ #para2
+ {
+ color:aliceblue;;
+ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ text-align:justify;
+ text-decoration:solid;
+ margin-top: 30 px;
+ font-size: large;
+ position: relative;
  padding-left: 40px;
  }
- #p1
+ /* #p1
  {
     margin-top: 20px;
     margin-bottom: 20px;     
- }
+ } */
  #img1
  {
     width:500px;
@@ -25,18 +36,19 @@
  {
     width:450px;
     height: 670px;
+    padding-right: 20px;
     border-radius: 10mm;
     border-style: groove;
     border-color: green;
  }
- #p2
+ /* #p2
  {
-     padding-left: 10px;
+     /* padding-left: 10px;
      background-position: center;
      background-size: cover;
      width:100%;
-    height: 5%; 
- }
+     height: 5%;  */
+ } */
  /* modified div1 with the help od source: https://coder-coder.com/display-divs-side-by-side/ */
  #div1
  {
@@ -53,14 +65,15 @@
  }
  body
  {
-    /* background-image: url("/Users/manishadubey/Desktop/ManishaDubeyPortfolio/Media/background1.jpg");
+     background-image: url("../Media/bluegreenLights.webp");
      background-position: center;
      background-repeat:no-repeat;
      background-size:cover;  
 
-     background-color: rgba(173, 13, 13, 0.192);*/
-     background-color:#afd76ebb;    
-    
+     /* background-color:darksalmon; 
+     background-color:#afd76ebb; 
+
+     background-color:darkseagreen;*/ 
 }
  .float-container {
     border: 3px solid rgba(10, 9, 9, 0.034);
@@ -75,8 +88,9 @@
     background-repeat:no-repeat;
     background-size:contain;
 }
-#abtcontainer{
-    background-image: url("/Users/manishadubey/Desktop/ManishaDubeyPortfolio/Media/pinkbackground.jpeg");
+#abtcontainer
+{
+    background-image: url("../Media/polly-background.jpg");
     background-size:cover; 
     background-repeat:no-repeat;
 

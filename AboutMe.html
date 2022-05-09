@@ -7,51 +7,53 @@
       <!-- code outsourced
       //link: https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_navbar&stacked=h -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
       <link rel="stylesheet" href="styles\style.css">
       <!-- end of outsourcing -->
     </head>
   <body>
-          <!-- designing nav bar using bootstrap classes -->
+     <!--------------------------- designing nav bar using bootstrap classes -------------------->
     <nav class="navbar navbar-default">
         <div class="container-fluid">
           <div class="navbar-header">
-            <a class="navbar-brand" href="index.html">Welcome</a>
+                <a class="navbar-brand" href="index.html">Welcome</a>
           </div>
-          <ul class="nav navbar-nav">
-            <li><a href="Home.html">Home</a></li>
-            <li class="active"><a href="#">About Me</a></li>
-            <li><a href="Contact.html">Contact</a></li>
-          </ul>
+            <ul class="nav navbar-nav">
+                <li><a href="Home.html">Home</a></li>
+                <li class="active"><a href="#">About Me</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
         </div>
       </nav>
       <!------------------------------------editing the code to make mobile friendly------------------------------>
+     
       <!--source code container divs: https://www.w3schools.com/bootstrap/bootstrap_grid_stacked_to_horizontal.asp------------------->
-      <h1 class="text-center">Know more about me...</h1>
-      <div class="jumbotron d-flex align-items-center min-vh-100" id="abtcontainer">
+     <header>
+         <h1 class="text-center">Know more about me...</h1>
+     </header>
+      
+     <div class="jumbotron d-flex align-items-center min-vh-100" id="abtcontainer">
         <div class="container text-center">
-          <p id="header3" style="color:aliceblue;">
-            I worked as a software developer for one year and 11 months ten years ago. Then, I pursued my career as a devoted mother for eight years.
-            During my software developer role, I accomplished these tasks:<br><br>
-
-           1) Two years of experience in development in a client-facing team.<br>
-           2) Developed a library application using .Net for an interview in the UK (in 2017), impressing the panel and myself even after a long break.<br>
-           3) Worked on creating requirement documents on CRM <br>
-           4) Develop new features in CRM on .NET <br><br>
-
-            Once I reached Australia in February 2021, I decided to try a job in my second interest area, which is teaching. <br>
-
-            I completed my Diploma and Certificate in Early Childhood education within a year. I started working as an Assistant educator, and just after one and a half years got promoted to the leadership role. I am currently working as a Lead Educator.
-        </p>
+             <p id="para2">
+                  I worked as a software developer for one year and 11 months ten years ago. Then, I pursued my career as a devoted mother for eight years.
+                  During my software developer role, I accomplished these tasks:<br><br>
+          
+                  1) Two years of experience in development in a client-facing team.<br>
+                  2) Developed a library application using .Net for an interview in the UK (in 2017), impressing the panel and myself even after a long break.<br>
+                  3) Worked on creating requirement documents on CRM <br>
+                  4) Develop new features in CRM on .NET <br><br>
+          
+                  Once I reached Australia in February 2021, I decided to try a job in my second interest area, which is teaching. <br>
+                  I completed my Diploma and Certificate in Early Childhood education within a year. I started working as an Assistant educator, 
+                  and just after one and a half years got promoted to the leadership role. I am currently working as a Lead Educator.
+              </p>
         </div>
       </div>
       <!------------------------------------------------------------end of source code container divs-------------------------------------------------------------------------->
       <!---------------------source code for marquee: https://www.geeksforgeeks.org/how-to-move-a-text-in-html/#:~:text=The%20tag%20in%20HTML,bottom%20or%20bottom%20to%20top.-->
       <div class="container text-center">
-        <marquee direction="left" id="mar">        
-          <b>My Key Skill:</b> <i>..Development..Testing..Designing..Hardworking..Dedicated..</i>
-        </marquee>
+          <marquee direction="left" id="mar">        
+                <b>My Key Skills:</b> <i>..Designing..Development..Testing..Dedicated and Hardworking..</i>
+          </marquee>
       </div>
       <!-------------------end of source code for marquee--------------------------------------------------------->
       <!------------------------------------end of editing--------------------------------------------------------->
@@ -82,14 +84,17 @@
               </tr>
           </table>
       </div> -->
-      <!-- Footer -->
-      <div>
+      <!---------------------------- Footer ------------------------------------------>
+      <footer>
       <br><br><br><br><br><br><br>
-      <p>
-        Tel: <span style="color: #0071bc;">&#9742 +44 7807310 |</span>
-        Email: <span style="color: #0071bc;">charu.m14@gmail.com |</span>
-        My Github Page: <span style="color: #0071bc;"><a href="https://github.com/ManishaDubey1985/ManishaDubeyPortfolio/tree/main" target="_blank">My Project</a></span>
-       </p>
-      </div>
+         <p>
+             Tel: <span style="color: #0071bc;">&#9742 +44 7807310 |</span>
+             Email: <span style="color: #0071bc;">charu.m14@gmail.com |</span>
+             My Github Page: <span style="color: #0071bc;"><a href="https://github.com/ManishaDubey1985/ManishaDubeyPortfolio/tree/main" target="_blank">My Project</a></span>
+         </p>
+      </footer>
+      <!-----------------Javascript bootstrap files---------------------->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   </body>
 </html>
