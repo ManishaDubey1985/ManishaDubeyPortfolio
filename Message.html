@@ -16,7 +16,8 @@
           // function to get user name from contact page and display in message
           window.onload = function displayMessage()
           {
-          var getName = localStorage.getItem("Cname");
+           var getName = localStorage.getItem("Cname");
+         // var getName = document.getElementById('name');
           var lblName = document.getElementById('lblMessage');
           lblName.innerHTML = getName + ' ' + 'thank you for contacting me. I will get back to you soon.';
           }
@@ -30,9 +31,9 @@
               <a class="navbar-brand" href="index.html">Welcome</a>
             </div>
             <ul class="nav navbar-nav">
-              <li class="active"><a href="Home.html">Home</a></li>
-              <li><a href="AboutMe.html">About Me</a></li>
-              <li><a href="Contact.html">Contact</a></li>
+              <li class="active"><a href="home.html">Home</a></li>
+              <li><a href="aboutMe.html">About Me</a></li>
+              <li><a href="contact.html">Contact</a></li>
             </ul>
           </div>
         </nav>
