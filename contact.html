@@ -9,6 +9,7 @@
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
       <link rel="stylesheet" href="styles\style.css">
+      
       <!-- end of outsourcing -->
  
       <!-- get and set variable source code-->
@@ -45,7 +46,7 @@
         <!--Grid column-->
         <div class="col-md-9 mb-md-0 mb-5">
            <!-- <form id="contact-form" name="contact-form" action=”mailto:charu.m14@gmail.com” enctype="text/plain" method="POST"> -->
-            <form id="contact-form" name="contact-form" enctype="text/plain" method="post" onsubmit="displayName();" action="message.html">
+            <form id="contact-form" name="contact-form" enctype="text/plain" method="get" action="message.html">
                 <!--Grid row-->
                 <div class="row">
 
@@ -96,9 +97,9 @@
                 </div>
                 <!--Grid row-->
                 <div class="text-center text-md-left">
-                    <input type="submit" class="btn btn-primary" value="Send"> 
+                    <!-- <input type="submit" class="btn btn-primary" value="Send">  -->
                    <!-- <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a> -->
-                   <!-- <a class="btn btn-primary" onclick="displayName();">Send</a> -->
+                   <a class="btn btn-primary" onclick="displayName();">Send</a>
                 </div>
                 <div class="status"></div>
             </form>
@@ -107,7 +108,11 @@
                     function displayName()
                     {    
                       var ClientName = document.getElementById('name').value;
-                      localStorage.setItem("Cname", ClientName);
+                      open(`message.html?cname=${ClientName}`)                         
+                    //   localStorage.setItem("Cname", ClientName);
+                    // var body = document.getElementsByName('body');
+                    // var html = `<html><body><h2>{{ ClientName }}</h2></body></html>`
+                    // HTMLRend(message.html);
                     }
             </script>
         </div>
@@ -143,5 +148,6 @@
  <!-----------------Javascript bootstrap files---------------------->
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ <script language="javascript" type="text/javascript" src="value.js"></script>
 </body>
 </html>
