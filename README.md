@@ -63,7 +63,7 @@ To send an email on submitting the contact request.
 - The issues identified and fixed:
      - added lang attirbute in the HTML tag.
      - replaced HTML marquee element with the CSS marquee designing after validation.
-     - replaced the '\' slash with the '/' slash in all the css file references and media files as well after validation.
+     - replaced the backslash with the forward slash in all the css file references and media files after validation.
      - replaced the footer inline styling element with the css class (Mentor recommendation)
 - After my discussion with the mentor fixed the POST method issue and it is responsive now on GITHUB website pages.
 - Once I get better understanding of API, will implement the mail sending option.
