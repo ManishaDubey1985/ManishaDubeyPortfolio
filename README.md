@@ -55,7 +55,7 @@ To send an email on submitting the contact request.
    [Reference:] (https://stackoverflow.com/questions/67921950/why-does-it-show-error-405-not-allowed-using-github-pages#:~:text=405%20is%20the%20HTTP%20status,to%20a%20URL%20hosted%20there.)
 
 ## User Acceptance Test
- # This testing is done after Mentor's review, feedback and recommendation
+ ### This testing is done after Mentor's review, feedback and recommendation
 -    Tested the css file using W3C validator.
     [Resultlink:] (http://jigsaw.w3.org/css-validator/validator$link)
 - Tested all the HTML file using:
@@ -65,6 +65,9 @@ To send an email on submitting the contact request.
      - replaced HTML marquee element with the CSS marquee designing after validation.
      - replaced the '\' slash with the '/' slash in all the css file references and media files as well after validation.
      - replaced the footer inline styling element with the css class (Mentor recommendation)
+- After my discussion with the mentor fixed the POST method issue and it is responsive now on GITHUB website pages.
+- Once I get better understanding of API, will implement the mail sending option.
+- The website is also mobile responsive, fixed this problem by dividing div in containers and removed the table structure.
 
 ## Deployment
 
