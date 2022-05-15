@@ -1,0 +1,172 @@
+#para1
+ {
+ color: #424242;
+ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ text-align:center;
+ text-decoration:solid;
+ margin-top: 30px;
+ font-size: large;
+ position: relative;
+ padding-left: 50px;
+ }
+ #para2
+ {
+ color:aliceblue;;
+ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ text-align:justify;
+ text-decoration:solid;
+ margin-top: 30px;
+ font-size: large;
+ position: relative;
+ padding-left: 40px;
+ }
+ /* #p1
+ {
+    margin-top: 20px;
+    margin-bottom: 20px;     
+ } */
+ #img1
+ {
+    width:500px;
+    border-radius: 10mm;
+    border-style: groove;
+    border-color: green;
+ }
+ #img2
+ {
+    width:450px;
+    height: 670px;
+    padding-right: 20px;
+    border-radius: 10mm;
+    border-style: groove;
+    border-color: green;
+ }
+ /* #p2
+ {
+     /* padding-left: 10px;
+     background-position: center;
+     background-size: cover;
+     width:100%;
+     height: 5%;  
+ } */
+ /* modified div1 with the help od source: https://coder-coder.com/display-divs-side-by-side/ */
+ #div1
+ {
+        text-align: left;
+ }
+ #div2
+ {
+     width: 200px;
+     height: 250px;
+     text-align: right;   
+     position: relative;
+     margin-left: 30px;
+
+ }
+ body
+ {
+     background-image: url("../Media/bluegreenLights.webp");
+     background-position: center;
+     background-repeat:no-repeat;
+     background-size:cover;  
+
+     /* background-color:darksalmon; 
+     background-color:#afd76ebb; 
+
+     background-color:darkseagreen;*/ 
+}
+ .float-container {
+    border: 3px solid rgba(10, 9, 9, 0.034);
+    padding: 20px;
+    overflow: auto;
+    background-color:#b4ce89bb; 
+}
+#aboutMe
+{
+    background-image: url("C:\Users\projj\ManishaDubeyPortfolio\Media\background3.jpg");
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:contain;
+}
+#abtcontainer
+{
+    background-image: url("../Media/polly-background.jpg");
+    background-size:cover; 
+    background-repeat:no-repeat;
+
+}
+.navbar
+{
+    background-color:cornflowerblue;
+}
+.navbar-header
+{
+    color: aliceblue;
+}
+#mar
+{
+    
+    text-decoration: solid;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* To eliminate the usage of inline element in the footer section, I defined this class */
+.footer
+{
+    color: #0071bc;
+}
+/* source code reference: https://www.w3schools.in/css3/css-marquee */
+.marquee {
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+    /* background: #fefefe;
+    color: #333;
+    border: 1px solid #4a4a4a; */
+}
+
+.marquee p {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    -moz-animation: scroll-left 2s linear infinite;
+    -webkit-animation: scroll-left 2s linear infinite;
+    animation: scroll-left 20s linear infinite;
+}
+
+@-moz-keyframes scroll-left {
+    0% {
+        -moz-transform: translateX(100%);
+    }
+    100% {
+        -moz-transform: translateX(-100%);
+    }
+}
+
+@-webkit-keyframes scroll-left {
+    0% {
+        -webkit-transform: translateX(100%);
+    }
+    100% {
+        -webkit-transform: translateX(-100%);
+    }
+}
+
+@keyframes scroll-left {
+    0% {
+        -moz-transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+    }
+    100% {
+        -moz-transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+}
