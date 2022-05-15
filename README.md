@@ -54,6 +54,18 @@ To send an email on submitting the contact request.
 -	Through my research, I found that it is not supported by GITHUB. 
    [Reference:] (https://stackoverflow.com/questions/67921950/why-does-it-show-error-405-not-allowed-using-github-pages#:~:text=405%20is%20the%20HTTP%20status,to%20a%20URL%20hosted%20there.)
 
+## User Acceptance Test
+ # This testing is done after Mentor's review, feedback and recommendation
+-    Tested the css file using W3C validator.
+    [Resultlink:] (http://jigsaw.w3.org/css-validator/validator$link)
+- Tested all the HTML file using:
+    [limk:] (https://validator.w3.org/)
+- The issues identified and fixed:
+     - added lang attirbute in the HTML tag.
+     - replaced HTML marquee element with the CSS marquee designing after validation.
+     - replaced the '\' slash with the '/' slash in all the css file references and media files as well after validation.
+     - replaced the footer inline styling element with the css class (Mentor recommendation)
+
 ## Deployment
 
 The hosting platform that I've used for my project is GitHub Pages. To deploy my website to GitHub pages, I used the following steps:

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
       <title>Manisha Dubey Portfolio</title>
       <meta charset="utf-8">
@@ -8,17 +8,12 @@
       //link: https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_navbar&stacked=h -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-      <link rel="stylesheet" href="styles\style.css">
-      
-      <!-- end of outsourcing -->
- 
-      <!-- get and set variable source code-->
-      <!-- https://stackoverflow.com/questions/17502071/transfer-data-from-one-html-file-to-another#comment97991073_17502217-->
-      
+       <!-- end of outsourcing -->
+      <link rel="stylesheet" href="styles/style.css">
     </head>
     <body>
         
-         <!-- designing nav bar using bootstrap classes -->
+     <!-- designing nav bar using bootstrap classes -->
     <nav class="navbar navbar-default">
         <div class="container-fluid">
           <div class="navbar-header">
@@ -89,7 +84,7 @@
                     <div class="col-md-12">
 
                         <div class="md-form">
-                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea" placeholder="Please provide details"></textarea>
+                            <textarea id="message" name="message" rows="2" class="form-control md-textarea" placeholder="Please provide details"></textarea>
                             <label for="message">Your message</label>
                         </div>
 
@@ -109,10 +104,7 @@
                     {    
                       var ClientName = document.getElementById('name').value;
                       open(`message.html?cname=${ClientName}`)                         
-                    //   localStorage.setItem("Cname", ClientName);
-                    // var body = document.getElementsByName('body');
-                    // var html = `<html><body><h2>{{ ClientName }}</h2></body></html>`
-                    // HTMLRend(message.html);
+                   
                     }
             </script>
         </div>
@@ -142,7 +134,7 @@
  <footer>
     <br><br><br><br><br><br><br>
      <p>
-        My Github Page: <span style="color: #0071bc;"><a href="https://github.com/ManishaDubey1985/ManishaDubeyPortfolio/tree/main" target="_blank">My Project</a></span>
+        My Github Page: <span class="footer"><a href="https://github.com/ManishaDubey1985/ManishaDubeyPortfolio/tree/main" target="_blank">My Project</a></span>
      </p>
  </footer>
  <!-----------------Javascript bootstrap files---------------------->

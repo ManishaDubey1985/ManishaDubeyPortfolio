@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
       <title>Manisha Dubey Portfolio</title>
       <meta charset="utf-8">
@@ -7,7 +7,7 @@
       <!-- code outsourced
       //link: https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_navbar&stacked=h -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-      <link rel="stylesheet" href="styles\style.css">
+      <link rel="stylesheet" href="styles/style.css">
       <!-- end of outsourcing -->
     </head>
   <body>
@@ -50,13 +50,20 @@
       </div>
       <!------------------------------------------------------------end of source code container divs-------------------------------------------------------------------------->
       <!---------------------source code for marquee: https://www.geeksforgeeks.org/how-to-move-a-text-in-html/#:~:text=The%20tag%20in%20HTML,bottom%20or%20bottom%20to%20top.-->
-      <div class="container text-center">
+      <!-- <div class="container text-center">
           <marquee direction="left" id="mar">        
                 <b>My Key Skills:</b> <i>..Designing..Development..Testing..Dedicated and Hardworking..</i>
           </marquee>
-      </div>
+      </div> -->
       <!-------------------end of source code for marquee--------------------------------------------------------->
       <!------------------------------------end of editing--------------------------------------------------------->
+      <!-- Changed HTML marquee with CSS marquee designing after validating the code with W3 validator -->
+      <div class="container text-center marquee">
+        <p>
+         <b>My Key Skills: <i>..Designing..Development..Testing..Dedicated and Hardworking..</i></b>
+        </p>
+      </div>
+      <!------------------- end of marquee section --------------------->
       <!-- <div class="float-container" style="background-color:#b4ce89bb;">
           <table>
               <tr>
@@ -88,9 +95,9 @@
       <footer>
       <br><br><br><br><br><br><br>
          <p>
-             Tel: <span style="color: #0071bc;">&#9742 +44 7807310 |</span>
-             Email: <span style="color: #0071bc;">charu.m14@gmail.com |</span>
-             My Github Page: <span style="color: #0071bc;"><a href="https://github.com/ManishaDubey1985/ManishaDubeyPortfolio/tree/main" target="_blank">My Project</a></span>
+             Tel: <span class="footer">&#9742; +44 7807310 |</span>
+             Email: <span class="footer">charu.m14@gmail.com |</span>
+             My Github Page: <span class="footer"><a href="https://github.com/ManishaDubey1985/ManishaDubeyPortfolio/tree/main" target="_blank">My Project</a></span>
          </p>
       </footer>
       <!-----------------Javascript bootstrap files---------------------->

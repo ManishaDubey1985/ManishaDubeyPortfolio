@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
       <title>Manisha Dubey Portfolio</title>
       <meta charset="utf-8">
@@ -9,38 +9,21 @@
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-      <link rel="stylesheet" href="styles\style.css">
       <!-- end of outsourcing -->
-      <!-- <script language="javascript" type="text/javascript" src="value.js"></script> -->
-      
-
-      <!-- <script>
-          // function to get user name from contact page and display in message
-           window.onload = function displayMessage()
-          {
-        //    var getName = localStorage.getItem("Cname");
-        //  // var getName = document.getElementById('name');
-        //   var lblName = document.getElementById('lblMessage');
-          lblName.innerHTML = b + ' ' + 'thank you for contacting me. I will get back to you soon.';
-          }
-      </script> -->
+      <link rel="stylesheet" href="styles/style.css">
       <script>
-                   window.onload = function displayMessage(){
-
-        const queryString = window.location.search;
-        console.log(queryString);
-        const urlParams = new URLSearchParams(queryString);
-        const Cname = urlParams.get('cname');
-                 var lblName = document.getElementById('lblMessage');
-               lblName.innerHTML = Cname + ' ' + 'thank you for contacting me. I will get back to you soon.';
-
-
-                   }
+        window.onload = function displayMessage()
+        {
+            const queryString = window.location.search;
+            console.log(queryString);
+            const urlParams = new URLSearchParams(queryString);
+            const Cname = urlParams.get('cname');
+            var lblName = document.getElementById('lblMessage');
+            lblName.innerHTML = 'Thank you for contacting me,' + '' + Cname + '.' + ' ' + ' I will get back to you soon.';
+        }
       </script>
-
     </head>
     <body>
-
         <!-- designing nav bar using bootstrap classes -->
         <nav class="navbar navbar-default" style="background-color: darkgrey;">
           <div class="container-fluid">
@@ -57,8 +40,7 @@
         <form id="contact-form" name="contact-form" enctype="text/plain" method="get" action="message.html">
           <div>
             <label id="lblMessage"></label>
-        </div>
-        </form>
-            
+          </div>
+        </form>       
     </body>
 </html>
